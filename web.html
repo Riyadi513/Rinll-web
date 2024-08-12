@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>  <title>Login and Redirect to YouTue</title>
+  <script>
+    function login() {
+      var username = document.getElementById("username").value;
+      var password = document.getElementById("password").value;
+      
+      if (username === "Rinll" && password === "2072012") {
+        window.location.href = "https://youtube.com/@riyadyi?si=PIaIaRsGZki2CgxU";
+      } else {
+        alert("Incorrect username or password. Please try again.");
+      }
+    }
+  </script>
+</head>
+<body>
+  <h2>Login</h2>
+  <form>
+    <label for="username">Username:</label><br>
+    <input type="text" id="username" name="username"><br>
+    <label for="password">Password:</label><br>
+    <input type="number" id="password" name="password"><br><br>
+    <button type="button" onclick="login()">Login</button>
+    <font face="Verdana, Arial" size="0.2">
+<a href="https://google.com">TIDAK PUNYA AKUN</a></font></p
+  </form>
+</body>
+</html>
